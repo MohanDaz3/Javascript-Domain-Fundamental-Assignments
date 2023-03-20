@@ -1,0 +1,13 @@
+<!-- Checking the palindrome of string -->
+<script>
+    var string=prompt("Enter a string")
+    var len=string.length
+    var re='It is a palindrome'
+    for(var i=0;i<len/2;i++){
+        if(string[i]!=string[string.length-i-1]){
+            re='It is not palindrome'
+        }
+        
+    }
+    console.log(re);
+</script>
