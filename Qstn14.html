@@ -1,0 +1,40 @@
+
+<!-- Adding 2 Two Dimension Array -->
+<script>
+          const size = Number(prompt("Enter size "));
+            console.log("Size:" + size);
+            var arr1 = new Array();
+            for (i = 0; i < size; i++) {
+                arr1[i] = new Array();
+            }
+            for (i = 0; i < size; i++) {
+                for (j = 0; j < size; j++) {
+                    arr1[i][j] = Number(prompt("Enter elements of array1 elements"));
+                }
+            }
+            console.log(arr1);
+            var arr2 = new Array();
+            for (i = 0; i < size; i++) {
+                arr2[i] = new Array();
+            }
+            for (i = 0; i < size; i++) {
+                    for (j = 0; j < size; j++) {
+                        arr2[i][j] = Number(prompt("Enter elements of array2 elements"));
+                    }
+                }
+                console.log(arr2);
+                var arr3 = new Array();
+                for (i = 0; i < size; i++) {
+                    arr3[i] = new Array();
+                }
+                for (i = 0; i < size; i++) {
+                    for (j = 0; j < size; j++) {
+                        arr3[i][j] = arr1[i][j] + arr2[i][j];
+                    }
+                }
+                console.log("Array after adding Array1 and Array2")
+                console.log(arr3);
+
+
+
+</script>
